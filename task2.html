@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .mydiv {
+        background-color: cadetblue;
+        height: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mydiv1 {
+        background-color: white;
+        height: 210px;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mydiv2 {
+        background-color: rgb(3, 53, 53);
+        height: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hasd {
+        font-size: 50px;
+        color: white;
+    }
+
+    .hasd1 {
+        font-size: 30px;
+        color: dimgray;
+    }
+
+    .hasd2 {
+        font-size: 20px;
+        color: white;
+    }
+
+    .paragraph {
+        font-size: 10px;
+        color: gray;
+    }
+
+    /* New CSS for horizontal alignment */
+    .flex-container {
+        display: flex;
+        flex-direction: column; /* Adjust to row if you want elements to be displayed horizontally */
+        justify-content: center;
+        align-items: center;
+    }
+
+</style>
+
+</head>
+<body>
+    <div class="mydiv">
+        <h1 class="hasd">I am learning HTML and CSS</h1>
+    </div>
+    <div class="mydiv1">
+        <h1 class="hasd1">HTML and CSS are the building blocks of the web</h1>
+        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+    </div>
+    <div class="mydiv2">
+        <div class="flex-container">
+            <h1 class="hasd2">HTML</h1>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+        </div>
+        <div class="flex-container">
+            <h1 class="hasd2">CSS</h1>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+        </div>
+        <div class="flex-container">
+            <h1 class="hasd2">And More</h1>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+        </div>
+    </div>
+
+</body>
+</html>
